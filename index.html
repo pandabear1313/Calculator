@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update 2 Number Calculator</title>
+    <link rel="icon" type="image/x-icon" href="./Images/icons8-calculator-16.png">
+</head>
+
+<body id="body">
+
+    <div class="border">
+        <h1>Updated 2 Number Calculator</h1>
+
+        <form>
+            <label>Enter number 1</label>
+            <input type="number" id="num1" placeholder="Enter a Value"> <br> <br>
+
+            <label>Enter number 2</label>
+            <input type="number" id="num2" placeholder="Enter a Value"> <br> <br>
+
+            <button type="button" onclick="multiply()" id="mul">Multiply</button>
+            <button type="button" onclick="Divide()" id="div">Divide</button>
+            <button type="button" onclick="Add()" id="add">Add</button>
+            <button type="button" onclick="Substract()" id="sub">Substract</button>
+
+            <br>
+            <br>
+
+            <button type="button" onclick="toggleCSS()">Toggle CSS</button>
+
+        </form><br>
+        <hr>
+        <h3>Calculation Results</h3>
+        <div id="results"></div>
+
+
+
+    </div>
+</body>
+
+
+<script src="./index.js"></script>
+
+</html>
