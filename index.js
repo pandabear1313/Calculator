@@ -12,7 +12,6 @@ function toggleCSS() {
 
     if (isToggle) {
 
-
         /* the body styling */
         body.style.margin = "0";
         body.style.padding = "0";
@@ -140,7 +139,6 @@ function Add() {
         alert("Enter a number")
     }
 
-
 }
 
 function Substract() {
@@ -157,6 +155,4 @@ function Substract() {
 
         alert("Enter a number")
     }
-
-    
 }
