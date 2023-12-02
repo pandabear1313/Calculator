@@ -16,7 +16,7 @@ function toggleCSS() {
         body.style.margin = "0";
         body.style.padding = "0";
         body.style.display = "flex";
-        body.style.alignItems ="center";
+        body.style.alignItems = "center";
         body.style.justifyContent = "center";
         body.style.height = "100vh";
         body.style.backgroundColor = "#f4f4f4";
@@ -28,6 +28,7 @@ function toggleCSS() {
         mulbutton.style.padding = "10px 20px";
         mulbutton.style.borderRadius = "4px";
         mulbutton.style.cursor = "pointer";
+        mulbutton.style.border = "none";
 
 
         /* Divide Button Style */
@@ -36,6 +37,7 @@ function toggleCSS() {
         divbutton.style.padding = "10px 20px";
         divbutton.style.borderRadius = "4px";
         divbutton.style.cursor = "pointer";
+        divbutton.style.border = "none";
 
         /* Substract Button Style */
         subbutton.style.backgroundColor = "rgb(8, 215, 8)";
@@ -43,6 +45,7 @@ function toggleCSS() {
         subbutton.style.padding = "10px 20px";
         subbutton.style.borderRadius = "4px";
         subbutton.style.cursor = "pointer";
+        subbutton.style.border = "none";
 
         /* Addition Button Style */
         addbutton.style.backgroundColor = "rgb(8, 215, 8)";
@@ -50,6 +53,7 @@ function toggleCSS() {
         addbutton.style.padding = "10px 20px";
         addbutton.style.borderRadius = "4px";
         addbutton.style.cursor = "pointer";
+        addbutton.style.border = "none";
 
         /* the div Container Button Style */
         container.style.padding = "20px";
@@ -98,7 +102,7 @@ function multiply() {
     if (isNaN(num1) || isNaN(num2)) {
 
         alert("Enter a number")
-    } 
+    }
 }
 
 function Divide() {
